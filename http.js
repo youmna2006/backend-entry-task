@@ -1,4 +1,5 @@
 const http = require("http");
+//use both POST and GET methods for the product
  const products = [
             {
                 id: 1,
@@ -32,7 +33,7 @@ const server = http.createServer((req, res) => {
 
     } else if (req.url === "/product" && req.method === "GET") {
 
-       
+       // the place of old proguct array
 
         res.setHeader("Content-Type", "application/json");
         res.end(JSON.stringify(products));
