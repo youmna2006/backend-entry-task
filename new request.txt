@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "type": "cars",
+    "price": 25000000
+  },
+  {
+    "id": 2,
+    "type": "cars",
+    "price": 80000
+  },
+  {
+    "id": 3,
+    "type": "cars",
+    "price": 50000
+  },
+  {
+    "id": 4,
+    "type": "cars",
+    "price": 100000
+  }
+]
